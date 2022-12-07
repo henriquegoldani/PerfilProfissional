@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.resumo_definicao {
+  display: grid;
+  grid-template-columns: 10% 50% 10% 30%;
+  grid-template-rows: 20% 10% 10% 20% 40%; 
+  height: 100vh;
+  background: url('../img/bg-tela-inicial.png') center / cover no-repeat;
+}
+
+.resumo__titulo {
+  grid-column: 2 / 2;
+  grid-row: 4 / 5;
+  font-size: 60px;
+}
+
+.resumo_descricao {
+  grid-column: 2 / 2;
+  grid-row: 5 / 5;
+  font-size: 24px;
+  margin-top: 3em;
+}
+
+.icone__laranja {
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+}
+
+.imagem__perfil {
+  background: url('./img/perfil-sem-fundo.png') center / cover no-repeat;
+  grid-column: 3 / 5;
+  grid-row: 2 / 6;
+}
+
+.perfil {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 5% 5%;
+  grid-template-rows: 10% 20% 20% 10% 30% 10%;
+  height: 100vh;
+  background-color: white;
+}
+
+.perfil__imagem {
+  width: 280px;
+  height: 280px;
+  background-image: linear-gradient( 90deg, #EC9F05, #FF4E00);
+  border-radius: 50%;
+
+  display: flex;
+  padding: 4px;
+
+  transition: transform 1s;
+
+  grid-column: 5 / 8;
+  grid-row: 3 / 4;
+}
+
+.perfil__imagem:hover {
+  transform: scale(1.1);
+}
+
+.perfil__imagem img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.perfil__titulo {
+    grid-column: 5 / 8;
+    grid-row: 2 / 2;
+    font-size: 40px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.perfil__descricao {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+
+.perfil_sub2 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.perfil_linkedin{
+    grid-column: 5 / 8;
+    grid-row: 5 / 6;
+    margin: 80px 0px 0px -10px;
+}
+
+.texto__linkedin{
+    mmargin: 0px;
+}
+
+.perfil__sobremim {
+    margin-top: 16px;
+    margin-left: -5px;
+    text-align: justify;
+    grid-column: 8 / 11;
+    grid-row: 3 / 4;
+}
