@@ -3,5 +3,5 @@
 Projeto em desenvolvimento
 
 ## Preview do projeto
-![preview](https://henriquegoldani.github.io/PerfilProfissional)
+[Clique aqui para acessar]([https://henriquegoldani.github.io/AluraBook](https://henriquegoldani.github.io/PerfilProfissional)/)
 
